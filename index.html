@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon says Game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any keyboard key to start the game</h2>
+
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" role="button" type="button" id="red">1</div>
+            <div class="btn green" role="button" type="button" id="green">2</div>  
+            <!-- type=button and role So, that div behave like Button ki all properties mil jaye . like: clickable etc -->
+        </div>
+        <div class="line-two">
+            <div class="btn yellow" type="button" role="button" id="yellow">3</div>
+            <div class="btn blue" type="button" id="blue">4</div>
+        </div>
+        <!-- when flex use one class in 1 line  -->
+    </div>
+    <h3>Your Highest score is here!</h3>
+        
+    <script src="app.js"></script>   
+</body>
+</html>
